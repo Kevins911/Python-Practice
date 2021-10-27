@@ -3,7 +3,6 @@
 #Defines 1st Number
 Number1 = int(input("What is your first number?"))
 
-
 #Defines 2nd Number
 Number2 = int(input("What is your second number?"))
 
