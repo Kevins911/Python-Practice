@@ -1,0 +1,31 @@
+#Loops
+
+
+# For algorithm - begin with sentry at start and add change to sentry on each pass until sentry is larger than or equal to finish
+# While - initialize sentry with initialization code then continue loop as long as condition is true. Inside loop change sentry with change code
+
+#Basic password loop. Exits with a positive result if the user chooses the right password, it exits with a negative result if the user is wrong three times
+
+While
+Tries>= 3 and guess != correct
+
+
+For Guess in i
+        Guess = Input("Password is?""
+       
+correct = "cocokev75"
+tries = 0
+
+keepGoing = True
+while(keepGoing):
+    tries = tries + 1
+    print("try #", tries)
+    
+    guess = input("What is the password?")
+    if guess == correct:
+        print("That's correct! heres the treasure!")
+        keepGoing = False
+        
+    elif tries >= 3:
+        print("Too many wrong tries. Launching the missiles")
+        keepGoing = False
